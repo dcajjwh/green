@@ -15,17 +15,18 @@ a{text-decoration: none;}
 * html body { margin:0; height:100%; }
 * html #pageOverlay { position: absolute; left: expression(documentElement.scrollLeft + documentElement.clientWidth - this.offsetWidth); top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight); }
 #login_div{
-    color: #fff; 
-    width: 200px;
-    height: 200px;
-    border:1px solid #f00;
-    position:absolute;
-   margin-left:auto;
-    margin-right:auto;
-    z-index:99999;
-    left: 400px;
-    bottom:5px;
-    display: none;
+ width: 200px;
+ height: 200px;
+ border:1px solid #f00;
+left:50%;/*FF IE7*/
+bottom: 30%;/*FF IE7*/
+margin-left:-150px!important;/*FF IE7 该值为本身宽的一半 */
+margin-top:-60px!important;/*FF IE7 该值为本身高的一半*/
+margin-top:0px;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+z-index:99999;
+display: none;
 }
 #footer{width: 960px;height: 100px;margin: 0 auto;border-top: 4px solid #ddd;text-align: center;}
 #footer p{margin:0 auto;}

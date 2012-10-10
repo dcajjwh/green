@@ -140,7 +140,7 @@ $comnews->show();
 		</div>
 	</div>
   <div class="learningbox">
- 
+
    <h2></h2>
 <div class="stu">
 <ul>
@@ -169,10 +169,12 @@ $comnews->show();
    
 <div id="footer"><p>Copyright©2012 各润教育 All Rights Reserved </p><p>电话 0371- 68975191 zzgr_edu@163.com
 校址：郑州市嵩山路汝河路交叉口东南角，珍宝商务四楼</p></div>
-
+<div id="login_div">
+  <iframe id="downframe" width="100%" scrolling="no" height="156" frameborder="0" src="get.php" allowtransparency="true" name="downframe">
+</iframe>
+<span>关闭</span></div> 
 </div>
 <div id="pageOverlay"></div>
-    <div id="login_div"><iframe id="downframe" width="100%" scrolling="no" height="156" frameborder="0" src="get.php" allowtransparency="true" name="downframe">
-</iframe></div>  
+     
 </body>
 </html>
