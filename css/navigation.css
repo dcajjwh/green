@@ -1,0 +1,87 @@
+﻿html
+{
+	width:100%;
+	height:100%;
+}
+
+.menu2 a
+{
+	display:block;
+	float:left;
+	position:relative;z-index:19999;
+}
+.menu2 del,div.clear
+{
+	height:0px;
+	font-size:0px;
+	line-height:0px;
+	padding:0px;
+	margin:0px;
+	display:block;
+	clear:both;
+	overflow:hidden;
+}
+.main_nav{border:1px solid #900;}
+.menu2 div
+{
+	width:960px;
+	text-align:left;
+	margin:auto auto auto auto;
+	
+}
+.menu2 ul{list-style: none;margin: 0;position: relative;z-index:19999;}
+.menu2 ul li{float: left;display: inline; position: relative;z-index:19999;}
+.menu2 .sub{position: absolute;top:50px;left:-10px; display: none;border:1px solid #900;z-index: 20;}
+.menu2 .sub li{width:80px;border: 1px solid #000;margin-bottom: 1px;display:inline;z-index: 20;position:relative;z-index:19999;}
+.menu2 .sub a{background: none;position:relative;z-index:19999;}
+.menu2,.menu3
+{
+	font-size:14px;
+	line-height:14px;
+	margin-bottom:24px;
+}
+.menu2 .left
+{
+	width:5px;
+	height:47px;
+	background:url("../image/navigation/bg2_left.jpg") no-repeat left top;
+	float:left;	
+}
+.menu2 .center
+{
+	width:950px;
+	height:47px;
+	background:url("../image/navigation/bg2_center.jpg") repeat-x left top;
+	float:left;
+}
+.menu2 .right
+{
+	width:5px;
+	height:47px;
+	background:url("../image/navigation/bg2_right.jpg") no-repeat left top;
+	float:left;
+}
+.menu2 a:link,.menu2 a:visited
+
+{
+	color:#585858;
+	width:77px;
+	height:30px;
+	padding-top:17px;
+	background:url("../image/navigation/bg2_btn.jpg") no-repeat left -94px;
+	text-align:center;
+	text-decoration:none;	
+
+}
+.menu2 a:hover
+{	
+	color:#fff;
+	background-position:left 0px;	
+}
+.menu2 a:active
+{
+	color:#fff;
+	background-position:left -47px;
+}
+*html ul li{float:left;zoom:1;}
+*html ul li a{zoom:1;}

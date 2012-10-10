@@ -1,0 +1,245 @@
+body {
+	background:url(../image/bg.png) repeat-y center top;
+	
+	-webkit-text-size-adjust:none;
+}
+body,div,ul,li,img,h2,p{margin:0; padding:0; list-style-type:none;}
+.container{width:964px;margin:0 auto ;border:1px dashed #ddd;
+}
+a{text-decoration: none;}
+ img {border:0;}  
+#pageOverlay { display: none;
+ position:fixed; top:0; left:0; z-index:6; width:100%; height:100%; background:#ccc; filter:alpha(opacity=70); opacity:0.7; }
+/*IE6 fixed*/
+* html { background:url(*) fixed; }
+* html body { margin:0; height:100%; }
+* html #pageOverlay { position: absolute; left: expression(documentElement.scrollLeft + documentElement.clientWidth - this.offsetWidth); top: expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight); }
+#login_div{
+    color: #fff; 
+    width: 200px;
+    height: 200px;
+    border:1px solid #f00;
+    position:absolute;
+   margin-left:auto;
+    margin-right:auto;
+    z-index:99999;
+    left: 400px;
+    bottom:5px;
+    display: none;
+}
+#footer{width: 960px;height: 100px;margin: 0 auto;border-top: 4px solid #ddd;text-align: center;}
+#footer p{margin:0 auto;}
+.clear{clear:both}
+.top {width:960px; height:95px; margin:0 auto;}
+.info{width: 960px;height:232px;margin:0 auto;border: 1px solid #ddd;;padding-top:5px; }
+.newstop {
+    
+    width:280px;
+    height:230px;
+    margin-left: 3px;
+    margin-top: 0px;
+	float:left;
+	background:url(../image/newstop.gif) no-repeat top left ;
+	overflow:hidden;
+}
+.newstop h2{
+	font:bold 14px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	width:246px;
+	height:18px;
+	padding-bottom:5px;
+	padding-top:9px;
+	padding-left:30px;
+	margin-top:0px;
+	margin-bottom:2px;
+
+    }
+.newstop ul {
+   margin-top:0;
+   list-style:none;
+}
+.newstop ul li {
+	 font:12px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+   line-height:23px;
+   background: url("../image/icon.gif") no-repeat scroll 1px 3px transparent;
+   text-indent:1em;
+   overflow: hidden;
+
+
+}
+.newstop ul li a{
+text-decoration: none;
+}
+#newstime{
+	font:10px Verdana,Tahoma;
+	color:#0066CC;
+}
+#login{
+	font-size: 14px;
+	width:190px;
+	height:222px;
+	margin-left:15px;
+	float:left;
+	background-image: url(../image/login.gif) ;
+	background-repeat: no-repeat;
+	overflow:hidden;
+	}
+#login h2{
+font-size:18px;
+height:24px;
+padding-top:2px;
+padding-left:5px;
+}
+.newsbox{
+	width: 950px;
+	border: 1px solid #dddddd;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:7px;
+	overflow: hidden;
+	}
+.newsbox #topbg{
+	margin-left:0px;
+	background-image: url(../image/newsbox.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height:40px;
+	font-size:16px;
+	font:bold 17px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	padding-left:20px;
+	padding-top:6px;
+	}
+.news {
+    border: 1px solid #aaccee;
+    width:300px;
+    height:160px;
+    margin-left: 10px;
+    margin-top:3px;
+    float: left;
+    font:13px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+}
+.news h2{
+	font-size:14px;
+	display:block;
+	width:280px;
+	height:18px;
+	padding-bottom:5px;
+	padding-top:9px;
+	padding-left:20px;
+	background-color: #ebf3fb;
+	margin-top:0px;
+	margin-bottom:10px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaccee;
+	border-bottom-width:1px;
+	background-image: url(../image/news.png);
+	background-position: -2px -105px;
+	background-repeat: no-repeat;
+    
+    }
+.news ul {
+   margin-top:0;
+   list-style:none;
+}
+.news ul li {
+   margin-bottom:1px;
+   height:20px;
+   background: url("../image/simbun.gif") no-repeat scroll 0 3px transparent;
+   text-indent:1em;
+   overflow: hidden;
+
+}
+.teacher{
+	margin:0 auto;
+	width:950px;
+	height:150px;
+	border: 1px solid #dddddd;
+	margin-top:10px;
+	}
+.teacher_top{
+	display:block;
+	font:bold 17px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	background-image: url(../image/teacher.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:40px;
+	padding-left:20px;
+	padding-top:6px;
+}
+.php-zxs li{display:block;width:173px;height:104px;float:left;padding-left:14px;padding-top:5px;line-height:20px;}
+.php-zxs li a{display:block;line-height:20px;}
+.php-zxs li img{margin-bottom:5px;}
+.classbox{
+	width: 960px;
+	border: 1px solid #dddddd;
+	margin-top:7px;
+    height: 220px;
+	overflow: hidden;
+	
+	}
+.classbox ul{margin-left: 60px;margin-top: 20px;}
+.classbox li {}
+.classbox h2{height: 52px;background-image: url(../image/class.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;}
+.classbox .subject {
+	border: 0px solid #F7A334;
+	float: left;
+	width: 165px;
+	height: 160px;
+	margin-right: 24px;
+	display: inline;
+	
+}
+.eng {
+	background-image: url(../image/english_class.png);
+	background-repeat: no-repeat;
+}
+.math {
+	background-image: url(../image/math_class.png);
+	background-repeat: no-repeat;
+}
+.physics {
+	background-image: url(../image/physics_class.png);
+	background-repeat: no-repeat;
+}
+.chem{
+	background-image: url(../image/chem_class.png);
+	background-repeat: no-repeat;
+}
+.chinese{
+	background-image: url(../image/chinese_class.png);
+	background-repeat: no-repeat;
+}
+.learningbox{
+	width: 960px;
+	border: 1px solid #dddddd;
+	margin-top:7px;
+	margin-bottom: 10px;
+    height: 220px;
+	overflow: hidden;
+	position: relative;
+}
+.learningbox h2{height: 52px;background-image: url(../image/learning.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;}
+.learningbox .stu{ float:left;margin-left:10px;width: 400px ;height: 210px;border:1px solid #ddd;
+	background-image: url(../image/stu.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+
+}
+.learningbox .stu ul{margin-top:40px;}
+.learningbox .stu li { float:left;width: 175px;height: 132px;text-align: center;}
+.learningbox .docs{float:left;margin-left:20px;width:250px;height: 210px;border:1px solid #ddd;
+background-image: url(../image/docsdown.png);
+	background-repeat: no-repeat;
+	background-position: top left;}
+.learningbox .docs ul{margin-top:40px;}
+.learningbox .docs li{margin-left:40px; font-size: 14px;line-height: 18px;}
+.learningbox .quote{float:left;margin-left:20px;width:220px;height: 210px;border:1px solid #ddd;
+background-image: url(../image/quote.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+

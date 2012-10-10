@@ -1,0 +1,198 @@
+.greenLocation{
+    width: 956px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 2em;
+    font-size: 12px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background:url("../image/bg_location.jpg") repeat-x scroll 0 0 transparent;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.greenNewsbox{
+    width: 960px;
+	margin: 0 auto;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+.greenNewscontent{
+	float: left;
+	margin-left: 3px;
+	width: 700px;
+	font-size: 18px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.greenNewscontent .newstitle{
+	margin-top: 10px;
+	font-size: 26px;
+	font-family:"宋体",arial;
+	text-align: center;
+
+}
+.greenNewscontent .newsinfo{
+	margin: 0 auto;
+	width: 600px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+.greenNewscontent .datetime{
+	font-size: 12px;
+	color:	#005AB5;
+	margin-right: 10px;
+}
+.greenNewscontent .hits{
+	font-size: 12px;
+	color: 	#005AB5;
+	margin-right: 1px;
+}
+.greenNewscontent .newsbody{
+    overflow: hidden;
+	margin-top: 20px;
+	padding: 0px 10px 10px 10px;
+}
+.greenNewsright{
+	float: right;
+	margin-right: 5px;
+	 width: 240px;
+	
+}
+.greenNewsright ul {
+	margin-top: 10px;
+}
+.greenNewsright li {
+	background: url("../image/ico.gif") no-repeat scroll 0 3px transparent;
+    height: 24px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.greenNewsright h2{
+	color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    height: 39px;
+    line-height: 39px;
+    text-align: left;
+    text-indent: 2em;
+    width: 100%;
+}
+.greenNewsright .newsType {
+	 width: 238px;
+	border: 1px solid #ccc;
+}
+.greenNewsright .newsType h2{
+	background: url("../image/titlebg.gif") repeat-x scroll left -117px transparent;
+	
+}
+.greenNewsright .newsTopten {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width: 238px;
+}
+.greenNewsright .newsTopten h2{
+	background: url("../image/titlebg.gif") repeat-x scroll left -78px transparent;
+
+}
+.greenNewsright .englishCorner {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width: 238px;}
+.greenNewsright p {
+	text-indent: 2em;}
+.greenNewsright .englishCorner h2 {
+	background: url("../image/titlebg.gif") repeat-x scroll left -39px transparent;
+}
+.newsentry{
+	border-bottom: 1px dashed #ccc;
+    margin-bottom: 5px;
+    text-indent: 2em;
+    line-height: 32px;
+    position: relative;
+    zoom:1
+}
+
+.newsentry a{
+	color: #336699;
+    line-height: 30px;
+    font:15px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+}
+.newslist_time{
+	font:12px Verdana,Tahoma;
+	color:#0066CC;
+	text-align: right;
+	position: absolute; 
+	bottom: 3px;
+	right:10px;
+
+}
+.pagination{
+	font:15px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	text-align: right;
+}
+.tbody{
+    text-align: center;
+	margin-top: 20px;
+}
+.tentry{
+    margin-bottom: 5px;
+    line-height: 32px;
+    position: relative;
+    zoom:1;
+    border: 1px dashed #ccc;
+}
+.tpic{
+	float: left;
+	width: 110px;
+	height: 105px;
+margin-top: 5px;
+	text-align: center;
+
+}
+.tinfo{
+	float: right;
+	width: 580px;
+	padding-top: 5px;
+}
+.tinfo a{
+	font:16px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	color: #336699;
+
+}
+.tresume{
+	font:14px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	
+}
+.tmore{
+	position: absolute; 
+	bottom: 1px;
+	right:5px;
+
+}
+.tem{
+	color: #f00;
+}
+.tcv{
+	font:14px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	width: 580px;
+	padding: 10px;
+	border: 1px dashed #ddd;
+	margin: 0 auto;
+	text-align: left;
+}
+.tcontent{
+	font:16px/120% Verdana,Tahoma,'Microsoft Yahei','Simsun';
+	width: 650px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 2em;
+}
+.tcontent p {
+	text-indent: 2em;
+}
